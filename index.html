@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>latrevours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2216ca;
+        }
+
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .intro h2 {
+            color: #28a745;
+        }
+
+        .services, .contact {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .service-item, .contact-item {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>WELCOME TO LATREVOURS</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+
+    <nav>
+        <a href="#services">Our Services</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <section class="intro">
+        <h2>What do we do</h2>
+        <p>We offer a wide range of healthcare services accessible from the comfort of your home.</p>
+    </section>
+
+    <section id="services" class="services">
+        <div class="service-item">
+            <h3>Telemedicine</h3>
+            <p>Consult with top doctors online through video calls or chat.</p>
+        </div>
+        <div class="service-item">
+            <h3>Prescription Delivery</h3>
+            <p>Get your prescribed medications delivered to your doorstep.</p>
+        </div>
+        <div class="service-item">
+            <h3>Health Monitoring</h3>
+            <p>Track your health vitals with our easy-to-use mobile app.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-item">
+            <h3>Email Us</h3>
+            <p>tre9vor@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <h3>Call Us</h3>
+            <p>+2547 175 7042</p>
+        </div>
+        <div class="contact-item">
+            <h3>Visit Us</h3>
+            <p>400-11 Mwembe Kisii</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Online Hospitals</h2>
+        <p>Online Hospitals is a platform dedicated to making healthcare accessible to everyone, anywhere. We provide a range of services from telemedicine to home care, making sure that no one is left without the healthcare they need.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Hospitals | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
